@@ -1,3 +1,8 @@
+# Seer Modifications
+- nginx config updates to allow CORS from all origins on / path
+
+---
+
 # Nginx Proxy for Mixpanel
 An example nginx config that serves as a proxy to Mixpanel's Ingestion API and JavaScript library endpoints. To learn more, visit our [Self-Hosted Tracking Docs](https://developer.mixpanel.com/docs/self-hosted-tracking).
 
