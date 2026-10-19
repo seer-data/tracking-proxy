@@ -1,5 +1,7 @@
 # Seer Modifications
 - nginx config updates to allow CORS from all origins on / path
+- `/health-check` endpoint used by the frontend to detect the proxy
+- removed the `/decide` route: `decide.mixpanel.com` no longer resolves, which stops nginx from starting
 
 ---
 
